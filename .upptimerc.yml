@@ -51,9 +51,9 @@ status-website:
       pastIncidents: Geçmiş Kesintiler
       pastIncidentsResolved: $MINUTES dakika içinde $POSTS gönderi ile çözüldü
       liveStatus: Anlık Durum
-      overallUptime: Toplam Çevrimiçi Süre: $UPTIME
+      overallUptime: Toplam Çevrimiçi Süre $UPTIME
       overallUptimeTitle: Toplam Çevrimiçi Süre
-      averageResponseTime: Ortalama Yanıt Süresi: $TIMEms
+      averageResponseTime: Ortalama Yanıt Süresi $TIMEms
       averageResponseTimeTitle: Ortalama yanıt süresi
       sevelDayResponseTime: 7 günlük yanıt süresi
       responseTimeMs: Yanıt süresi (ms)
