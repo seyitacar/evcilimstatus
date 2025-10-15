@@ -33,6 +33,7 @@ status-website:
     - name: "robots"
       content: "noindex"
   robotsText: "User-agent: * \n Disallow: /"
+  themeUrl: https://durum.evcil.im/evcilim.css
   i18n:
       activeIncidents: Kesintiler
       allSystemsOperational: Tüm sistemler çevrimiçi
