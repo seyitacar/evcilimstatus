@@ -24,3 +24,6 @@
     --graph-opacity: 1;
     --graph-filter: none;
 }
+body div nav div a div {
+    display: none !important;
+}
