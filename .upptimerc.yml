@@ -34,6 +34,7 @@ status-website:
       content: "noindex"
   robotsText: "User-agent: * \n Disallow: /"
   themeUrl: https://durum.evcil.im/evcilim.css
+  
 i18n:
   url: "URL"
   status: "Durum"
