@@ -22,7 +22,7 @@ status-website:
   logoUrl: https://evcil.im/wp-content/uploads/2025/03/ben-evcilim.svg
   name: Sistem Durumu
   introTitle: "Ben Evcilim Hizmet Durumu"
-  introMessage: Bu sayfa Ben Evcilim hizmetlerinin anlık sistem durumları ve çevrimiçi kalma grafiğini gösterir. [Anasayfa (evcil.im)](https://evcil.im/), [Evcil Profil Sayfaları (ben.evcil.im/varsayilan)](https://ben.evcil.im/varsayilan/), [Evcil Profil Düzenleme (ben.evcil.im/login)](https://ben.evcil.im/login) ve E-posta Servislerini düzenli olarak kontrol eder.
+  introMessage: Bu sayfa Ben Evcilim hizmetlerinin anlık sistem durumları ve çevrimiçi kalma grafiğini gösterir. [Anasayfa](https://evcil.im/), [Evcil Profil Sayfaları](https://ben.evcil.im/varsayilan/), [Evcil Profil Düzenleme](https://ben.evcil.im/login) ve E-posta Servislerini düzenli olarak kontrol eder.
   navbar:
     - title: Anasayfa
       href: /
