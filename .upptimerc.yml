@@ -36,7 +36,7 @@ status-website:
   themeUrl: https://durum.evcil.im/evcilim.css
   
 i18n:
-  url: "URL"
+  url: "Link"
   status: "Durum"
   history: "Geçmiş"
   responseTime: "Yanıt Süresi"
