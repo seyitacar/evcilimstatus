@@ -3,16 +3,16 @@ owner: seyitacar # Your GitHub organization or username, where this repository l
 repo: evcilimstatus # The name of this repository
 
 sites:
-  - name: Website
+  - name: Anasayfa
     url: https://evcil.im/
-  - name: Profil Sayfaları
+  - name: Evcil Profil Sayfaları
     url: https://ben.evcil.im/varsayilan/
-  - name: Profil Düzenleme
+  - name: Evcil Profil Düzenleme
     url: https://ben.evcil.im/login
-  - name: E-posta Servisler
+  - name: E-posta Servisleri
     url: witcher.mxrouting.net
     port: 465
-    check: "smtp"
+    check: "tcp-ping"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
