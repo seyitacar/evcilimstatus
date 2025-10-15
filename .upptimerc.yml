@@ -35,67 +35,92 @@ status-website:
   robotsText: "User-agent: * \n Disallow: /"
   themeUrl: https://durum.evcil.im/evcilim.css
   i18n:
-      activeIncidents: Kesintiler
-      allSystemsOperational: Tüm sistemler çevrimiçi
-      incidentReport: $NUMBER Numaralı Kesinti Raporu →
-      activeIncidentSummary: $DATE tarihinde $POSTS gönderisiyle açıldı
-      incidentTitle: Kesinti $NUMBER Detayları
-      incidentDetails: Kesinti Detayları
-      incidentFixed: Düzeltildi
-      incidentOngoing: Üzerinde Çalışılıyor
-      incidentOpenedAt: Başlangıç Tarihi
-      incidentClosedAt: Bitiş Tarihi
-      incidentViewOnGitHub: GitHubda görüntüleyin ve abone olun
-      incidentCommentSummary: $DATE tarihinde $AUTHOR tarafından yayınlandı.
-      incidentBack: ← Tüm kesintilere geri dön
-      pastIncidents: Geçmiş Kesintiler
-      pastIncidentsResolved: $MINUTES dakika içinde $POSTS gönderi ile çözüldü
-      liveStatus: Anlık Durum
-      overallUptime: Toplam Çevrimiçi Süre $UPTIME
-      overallUptimeTitle: Toplam Çevrimiçi Süre
-      averageResponseTime: Ortalama Yanıt Süresi $TIMEms
-      averageResponseTimeTitle: Ortalama yanıt süresi
-      sevelDayResponseTime: 7 günlük yanıt süresi
-      responseTimeMs: Yanıt süresi (ms)
-      up: Çalışıyor
-      down: Kesinti
-      degraded: Bozulmuş
-      ms: ms
-      loading: Yükleniyor
-      navGitHub: GitHub
-      footer: Bu sayfa [Ben Evcilim](https://evcil.im) projesinin sistem durumlarını takip için tasarlanmıştır.
-      rateLimitExceededTitle: Rate limit exceeded
-      rateLimitExceededIntro: You have exceeded the number of requests you can do in an hour, so youll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.
-      rateLimitExceededWhatDoesErrorMean: What does this error mean?
-      rateLimitExceededErrorMeaning: This website uses the GitHub API to access real-time data about our websites status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed.
-      rateLimitExceededErrorHowCanFix: How can I fix it?
-      rateLimitExceededErrorFix: You can wait for another hour and your IP address limit will be restored. Alternately, you can add your GitHub Personal Access Token, which gives you an additional 5,000 requests per hour.
-      rateLimitExceededGeneratePAT: Learn how to generate a Personal Access Token
-      rateLimitExceededHasSet: You have a personal access token set.
-      rateLimitExceededRemoveToken: Remove token
-      rateLimitExceededGitHubPAT: GitHub Personal Access Token
-      rateLimitExceededCopyPastePAT: Copy and paste your token
-      rateLimitExceededSaveToken: Save token
-      errorTitle: An error occurred
-      errorIntro: An error occurred in trying to get the latest status details.
-      errorText: You can try again in a few moments.
-      errorHome: Go to the homepage
-      pastScheduledMaintenance: Past Scheduled Maintenance
-      scheduledMaintenance: Scheduled Maintenance
-      scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes
-      scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes
-      startedAt: Başlangıç
-      startsAt: Başlama Zamanı
-      duration: Süre
-      durationMin: $DURATION dakika
-      incidentCompleted: Tamamlandı
-      incidentScheduled: Planlandı
-      duration24H: 24s
-      duration7D: 7g
-      duration30D: 30g
-      duration1Y: 1y
-      durationAll: tümü
-      locale: tr-TR
+i18n:
+  url: "URL"
+  status: "Durum"
+  history: "Geçmiş"
+  responseTime: "Yanıt Süresi"
+  uptime: "Çevrimiçi Süresi"
+  up: "🟩 Çevrimiçi"
+  degraded: "🟨 Düşük Performans"
+  down: "🟥 Kesinti"
+  responseTimeGraphAlt: "Yanıt süresi grafiği"
+  ms: "ms"
+  responseTime: "Yanıt süresi"
+  responseTimeDay: "24 saatlik yanıt süresi"
+  responseTimeWeek: "7 günlük yanıt süresi"
+  responseTimeMonth: "30 günlük yanıt süresi"
+  responseTimeYear: "1 yıllık yanıt süresi"
+  uptime: "Tüm yanıt süresi"
+  uptimeDay: "24 saatlik çevrimiçi oranı"
+  uptimeWeek: "7 günlük çevrimiçi oranı"
+  uptimeMonth: "30 günlük çevrimiçi oranı"
+  uptimeYear: "1 yıllık çevrimiçi oranı"
+  liveStatusHtmlComment: "<!--live status-->"
+  degradedPerformance: "🟨 Düşük Performans"
+  completeOutage: "🟥 Kesinti"
+  partialOutage: "🟧 Kısmi Kesinti"
+  activeIncidents: "Kesintiler"
+  allSystemsOperational: "🟩 Tüm sistemler çevrimiçi"
+  incidentReport: "#$NUMBER Numaralı Kesinti Raporu →"
+  activeIncidentSummary: "$DATE tarihinde $POSTS gönderisiyle açıldı"
+  incidentTitle: "Kesinti $NUMBER Detayları"
+  incidentDetails: "Kesinti Detayları"
+  incidentFixed: "Düzeltildi"
+  incidentOngoing: "Üzerinde Çalışılıyor"
+  incidentOpenedAt: "Başlangıç Tarihi"
+  incidentClosedAt: "Bitiş Tarihi"
+  incidentViewOnGitHub: "GitHubda görüntüleyin ve abone olun"
+  incidentCommentSummary: "$DATE tarihinde $AUTHOR tarafından yayınlandı."
+  incidentBack: "← Tüm kesintilere geri dön"
+  pastIncidents: "Geçmiş Kesintiler"
+  pastIncidentsResolved: "$MINUTES dakika içinde $POSTS gönderi ile çözüldü"
+  liveStatus: "Anlık Durum"
+  overallUptime: "Toplam Çevrimiçi Süre: $UPTIME"
+  overallUptimeTitle: "Toplam Çevrimiçi Süre"
+  averageResponseTime: "Ortalama Yanıt Süresi: $TIMEms"
+  averageResponseTimeTitle: "Ortalama yanıt süresi"
+  sevelDayResponseTime: "7 günlük yanıt süresi"
+  responseTimeMs: "Yanıt süresi (ms)"
+  up: "Çalışıyor"
+  down: "Kesinti"
+  degraded: "Düşük Performans"
+  ms: "ms"
+  loading: "Yükleniyor"
+  navGitHub: "GitHub"
+  footer: "Bu sayfa [Ben Evcilim](https://evcil.im) projesinin sistem durumlarını takip için tasarlanmıştır."
+  rateLimitExceededTitle: "Rate limit exceeded"
+  rateLimitExceededIntro: "You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website."
+  rateLimitExceededWhatDoesErrorMean: "What does this error mean?"
+  rateLimitExceededErrorMeaning: "This website uses the GitHub API to access real-time data about our websites' status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed."
+  rateLimitExceededErrorHowCanFix: "How can I fix it?"
+  rateLimitExceededErrorFix: "You can wait for another hour and your IP address' limit will be restored. Alternately, you can add your GitHub Personal Access Token, which gives you an additional 5,000 requests per hour."
+  rateLimitExceededGeneratePAT: "Learn how to generate a Personal Access Token"
+  rateLimitExceededHasSet: "You have a personal access token set."
+  rateLimitExceededRemoveToken: "Remove token"
+  rateLimitExceededGitHubPAT: "GitHub Personal Access Token"
+  rateLimitExceededCopyPastePAT: "Copy and paste your token"
+  rateLimitExceededSaveToken: "Save token"
+  errorTitle: "An error occurred"
+  errorIntro: "An error occurred in trying to get the latest status details."
+  errorText: "You can try again in a few moments."
+  errorHome: "Go to the homepage"
+  pastScheduledMaintenance: "Past Scheduled Maintenance"
+  scheduledMaintenance: "Scheduled Maintenance"
+  scheduledMaintenanceSummaryStarted: "Started at $DATE for $DURATION minutes"
+  scheduledMaintenanceSummaryStarts: "Starts at $DATE for $DURATION minutes"
+  startedAt: "Başlangıç"
+  startsAt: "Başlama Zamanı"
+  duration: "Süre"
+  durationMin: "$DURATION dakika"
+  incidentCompleted: "Tamamlandı"
+  incidentScheduled: "Planlandı"
+  duration24H: "24s"
+  duration7D: "7g"
+  duration30D: "30g"
+  duration1Y: "1y"
+  durationAll: "tümü"
+  locale: "tr-TR"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
