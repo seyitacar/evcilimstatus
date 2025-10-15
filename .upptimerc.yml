@@ -20,9 +20,9 @@ status-website:
   cname: durum.evcil.im
   # baseUrl: /your-repo-name
   logoUrl: https://evcil.im/wp-content/uploads/2025/03/ben-evcilim.svg
-  name: Sistem Durumu
-  introTitle: "Ben Evcilim Hizmet Durumu"
-  introMessage: Bu sayfa Ben Evcilim hizmetlerinin anlık sistem durumları ve çevrimiçi kalma grafiğini gösterir. [Anasayfa](https://evcil.im/), [Evcil Profil Sayfaları](https://ben.evcil.im/varsayilan/), [Evcil Profil Düzenleme](https://ben.evcil.im/login) ve E-posta Servislerini düzenli olarak kontrol eder.
+  name: Sistem Durumu - Ben Evcilim
+  introTitle: "Ben Evcilim Sistem Durumu"
+  introMessage: Bu sayfa Ben Evcilim hizmetlerinin anlık sistem durumlarını düzenli olarak takip eder ve çevrimiçi kalma sürelerini grafiklerle gösterir. [Anasayfa](https://evcil.im/), [Evcil Profil Sayfaları](https://ben.evcil.im/varsayilan/), [Evcil Profil Düzenleme](https://ben.evcil.im/login) ve E-posta Servislerini düzenli olarak kontrol eder.
   navbar:
     - title: Anasayfa
       href: /
@@ -59,7 +59,7 @@ i18n:
   completeOutage: "🟥 Kesinti"
   partialOutage: "🟧 Kısmi Kesinti"
   activeIncidents: "Kesintiler"
-  allSystemsOperational: "🟩 Tüm sistemler çevrimiçi"
+  allSystemsOperational: "Tüm sistemler sorunsuz çalışıyor"
   incidentReport: "#$NUMBER Numaralı Kesinti Raporu →"
   activeIncidentSummary: "$DATE tarihinde $POSTS gönderisiyle açıldı"
   incidentTitle: "Kesinti $NUMBER Detayları"
@@ -113,7 +113,7 @@ i18n:
   duration7D: "7g"
   duration30D: "30g"
   duration1Y: "1y"
-  durationAll: "tümü"
+  durationAll: "Tümü"
   locale: "tr-TR"
 
 # Upptime also supports notifications, assigning issues, and more
