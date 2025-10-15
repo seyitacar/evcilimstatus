@@ -3,19 +3,16 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Website
+    url: https://evcil.im/
+  - name: Profil Sayfaları
+    url: https://ben.evcil.im/varsayilan/
+  - name: Profil Düzenleme
+    url: https://ben.evcil.im/login
+  - name: E-posta Servisler
+    url: witcher.mxrouting.net
+    port: 465
+    check: "smtp"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
