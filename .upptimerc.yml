@@ -24,8 +24,9 @@ status-website:
   introTitle: "Ben Evcilim Hizmet Durumu"
   introMessage: Bu sayfa Ben Evcilim hizmetlerinin anlık sistem durumları ve çevrimiçi kalma grafiğini gösterir. [Anasayfa (evcil.im)](https://evcil.im/), [Evcil Profil Sayfaları (ben.evcil.im/varsayilan)](https://ben.evcil.im/varsayilan/), [Evcil Profil Düzenleme (ben.evcil.im/login)](https://ben.evcil.im/login) ve E-posta Servislerini düzenli olarak kontrol eder.
   navbar:
-    - title: Sistem Durumu
+    - title:
       href: /
+  theme: light
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
