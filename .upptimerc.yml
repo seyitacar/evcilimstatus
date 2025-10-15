@@ -20,14 +20,14 @@ status-website:
   cname: durum.evcil.im
   # baseUrl: /your-repo-name
   logoUrl: https://evcil.im/wp-content/uploads/2025/03/ben-evcilim.svg
-  name: Sistem Durumu - Ben Evcilim
+  name: Sistem Durumu
   introTitle: "Ben Evcilim Hizmet Durumu"
   introMessage: Bu sayfa Ben Evcilim hizmetlerinin anlık sistem durumları ve çevrimiçi kalma grafiğini gösterir. [Anasayfa (evcil.im)](https://evcil.im/), [Evcil Profil Sayfaları (ben.evcil.im/varsayilan)](https://ben.evcil.im/varsayilan/), [Evcil Profil Düzenleme (ben.evcil.im/login)](https://ben.evcil.im/login) ve E-posta Servislerini düzenli olarak kontrol eder.
   navbar:
-    - title:
+    - title: Anasayfa
       href: /
   theme: light
-  favicon: https://example.com/favicon.png
+  favicon: https://evcil.im/wp-content/uploads/2025/10/favicon.webp
   faviconSvg: https://evcil.im/wp-content/uploads/2025/03/ben-evcilim-favicon.svg
   metaTags:
     - name: "robots"
