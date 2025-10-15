@@ -46,7 +46,6 @@ i18n:
   down: "🟥 Kesinti"
   responseTimeGraphAlt: "Yanıt süresi grafiği"
   ms: "ms"
-  responseTime: "Yanıt süresi"
   responseTimeDay: "24 saatlik yanıt süresi"
   responseTimeWeek: "7 günlük yanıt süresi"
   responseTimeMonth: "30 günlük yanıt süresi"
