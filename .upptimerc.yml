@@ -19,12 +19,12 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: durum.evcil.im
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://evcil.im/wp-content/uploads/2025/03/ben-evcilim.svg
   name: Sistem Durumu - Ben Evcilim
-  introTitle: "Ben Evcilim hizmetlerinin anlık sistem durumları ve çevrimiçi kalma grafiği"
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "Ben Evcilim Hizmet Durumu"
+  introMessage: Bu sayfa Ben Evcilim hizmetlerinin anlık sistem durumları ve çevrimiçi kalma grafiğini gösterir. [Anasayfa (evcil.im)](https://evcil.im/), [Evcil Profil Sayfaları (ben.evcil.im/varsayilan)](https://ben.evcil.im/varsayilan/), [Evcil Profil Düzenleme (ben.evcil.im/login)](https://ben.evcil.im/login) ve E-posta Servislerini düzenli olarak kontrol eder.
   navbar:
-    - title: Durum
+    - title: Sistem Durumu
       href: /
 
 # Upptime also supports notifications, assigning issues, and more
