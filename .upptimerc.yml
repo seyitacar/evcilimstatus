@@ -43,8 +43,8 @@ status-website:
       incidentDetails: Kesinti Detayları
       incidentFixed: Düzeltildi
       incidentOngoing: Üzerinde Çalışılıyor
-      incidentOpenedAt: Başlangıç Tarihi:
-      incidentClosedAt: Bitiş Tarihi:
+      incidentOpenedAt: Başlangıç Tarihi
+      incidentClosedAt: Bitiş Tarihi
       incidentViewOnGitHub: GitHubda görüntüleyin ve abone olun
       incidentCommentSummary: $DATE tarihinde $AUTHOR tarafından yayınlandı.
       incidentBack: ← Tüm kesintilere geri dön
